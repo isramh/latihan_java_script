@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    
+    <!-- <a href="#" onclick="nama_lengkap()">klik untuk melihat kamu</a> -->
+    <h2>object</h2>
+    <p id="tampil">
+
+    </p>
+    <script>
+        // OBJECT
+        let biodata ={
+            nama_depan: "Isra Muhammad",
+            nama_belakang: "Hasan",
+        }
+
+        document.getElementById("tampil").innerHTML = biodata.nama_depan +" "+ biodata.nama_belakang
+        
+        //ARRAY
+        let karyawan = ["isra", "muhammad", "hasan"]
+        // document.getElementById("karyawan").innerHTML = karyawan
+        // console.log(karyawan)
+    for(let i = 0; i <karyawan.length; i++){
+        console.log(i)
+    }
+        
+        // let nama_lengkap = () => {
+        //     alert("Isra Muhammad Hasan")
+        // }
+    </script>
+ 
+</body>
+</html>
